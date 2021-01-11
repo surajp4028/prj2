@@ -1,0 +1,436 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js">
+
+    </script>
+    <!-- <link rel="stylesheet" href="slide.js"> -->
+  
+</head>
+<body>
+     <div class="splash">
+      <div class="fade-in">
+        <img src="clogo.png">
+        </div>
+     </div>
+    <header>
+        <div class="logo">
+        <img src="clogo.png">
+        </div>
+        <span class="cd">Desktop<span style="color: rgb(6, 255, 255);">Impro</span></span>
+        <div class="search-bar">
+        <input type="search" name="search" class="search" placeholder="e.g. wallpaper">
+        <button class="icon" type="submit"><a href="#"><i class="fas fa-search"></i></a></button>
+        </div>
+        <!-- <input type="checkbox" id="chk"> -->
+        <!-- <label for="chk" class="show-menu-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </label> -->
+        
+        <nav class="nav" id="nav">
+            
+            <!-- <input type="checkbox" id=res-menu>
+            <label for="res-menu"></label>
+            <i class="fa-fa-bars" id="sign-one"></i>
+            <i class="fa-fa-times" id="sign-two"></i> -->
+            <ul class="nav-links">
+                <!-- <li><a  class="active" href="#" class="home">Home</a></li> -->
+                <li class="active"><a href="wildlife/AboutUs.html">About us</a></li>
+                <li><a href="#ser">Categories</a>
+                 <ul class="cat">
+                     <li><a href="nature/nature.html">Nature</a></li>
+                     <li><a href="wildlife/wildlife.html">Wild life</a></li>
+                     <li><a href="flowes/flowers.html">Flowers</a></li>
+                     <li><a href="wildlife/mountain.html">Mountain</a></li>
+                     <li><a href="wildlife/snowfall.html">Snowfall</a></li>
+
+                 </ul>
+                
+                </li>
+                <!-- <li><a href="https://darkphotograph.blogspot.com/" target="blank">Portfolio</a></li> -->
+                
+            <button class="log-in"><a href="login.php"style="color: black;" id="login">Login</a></button>
+            
+            <span style="color: white; font-size: 28px; padding: 5px;">|</span>
+            <button id="sign-up" class="active"><a href="signup.php">Sign up</a></button>
+            
+        <!-- <label for="chk" class="hide-menu-bar">
+            <i class="fas fa-times"></i>
+        </label> -->
+            </ul>
+        </nav>
+    
+    </header> 
+   
+ 
+    <!-- <div class="fimage" link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <img class="mySlides" src="img1.jpg" style="width:100%">
+        <img class="mySlides" src="img2.jpg" style="width:100%">
+        <img class="mySlides" src="img3.jpg" style="width:100%">
+        <img class="mySlides" src="img4.jpg" style="width:100%">
+      
+        <button class="btn1" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btn2" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script> -->
+      
+    
+
+</head>
+<body>
+  <!-- <div class="splash">
+      <img src="clogo.png" width="100px">
+</div> -->
+
+  <div class="search-dis">
+    <h2>Desktop<span style="color: rgb(6, 255, 255);">Impro</span></h2>
+    <p style="font-size: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, non.</p>
+    <div class="sea">
+      <input type="search" name="search" class="srch" placeholder="e.g. nature, wild life">
+      <button class="icon" type="submit"><a href="#"><i class="fas fa-search"></i></a></button>
+      </div>
+  </div>
+<div class="slideshow-container">
+
+<div class="mySlides fade" id="im">
+  <div class="numbertext"></div>
+  <img src="img1.jpg" >
+  
+</div>
+
+<div class="mySlides fade" id="im">
+  <div class="numbertext"></div>
+  <img src="img2.jpg" >
+</div>
+
+<div class="mySlides fade" id="im">
+  <div class="numbertext"></div>
+  <img src="img3.jpg" >
+  
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+    <!-- <div class="content">
+        <div class="image">
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+        </div>
+     </div>  -->
+     <div class="col-6 d-flex justify-content-end align-items-center" >
+        <form action="" class="tm-text-primary">
+            Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 200
+        </form>
+    </div> 
+    <div class="img-grid" id="full">
+    <div class="gallery">
+        
+          <img src="img-01.jpg" alt="Cinque Terre" >
+          <a href="img-01.jpg" data-lightbox="mygallery" data-title="Hang">
+            <div class="cont">
+          <h3 class="hang">Hang</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>21 sep 2020</div><p>3,422 views</p></div>
+      </div>
+      
+      <div class="ddd">
+        
+          <img src="img-02.jpg" alt="Forest">
+          <a href="img-02.jpg" data-lightbox="mygallery" data-title="Colongne">
+            <div class="dd">
+          <h3 class="hng">Colongne</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>19 sep 2020</div><p>5,402 views</p></div>
+      </div>
+      
+      <div class="gallery">
+        
+          <img src="img-03.jpg" alt="Northern Lights" >
+         
+          <a href="img-03.jpg" data-lightbox="mygallery" data-title="Time">
+
+          <div class="cont">
+            <h3 class="hang">Time</h3>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+          </div></a>
+        <div class="desc"><div>17 sep 2020</div><p>3,643 views</p></div>
+      </div>
+      
+      <div class="ddd">
+        
+          <img src="img-04.jpg" alt="Mountains">
+        <a href="img-04.jpg" data-lightbox="mygallery" data-title="Flower Pot"><div class="dd">
+          <h3 class="hng">Flower Pot</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>16 sep 2020</div><p>566 views</p></div>
+      </div>
+      <div class="ddd">
+       
+          <img src="img-05.jpg" alt="Cinque Terre" >
+        
+          <a href="img-05.jpg" data-lightbox="mygallery" data-title="Nature"><div class="dd">
+          <h3 class="hng">Nature</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>10 sep 2020</div><p>2,106 views</p></div>
+      </div>
+      
+      <div class="gallery">
+       
+          <img src="img-06.jpg" alt="Forest" >
+      
+          <a href="img-06.jpg" data-lightbox="mygallery" data-title="Music">
+            <div class="cont">
+          <h3 class="hang">Music</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>8 sep 2020</div><p>446 views</p></div>
+      </div>
+      
+      <div class="ddd">
+       
+          <img src="img-07.jpg" alt="Northern Lights">
+      
+          <a href="img-07.jpg" data-lightbox="mygallery" data-title="Toy">
+            <div class="dd">
+          <h3 class="hng">Toy</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>6 sep 2020</div><p>3,121 views</p></div>
+      </div>
+      
+      <div class="gallery">
+        
+          <img src="img-08.jpg" alt="Mountains">
+        
+          <a href="img-08.jpg" data-lightbox="mygallery" data-title="City"><div class="cont">
+          <h3 class="hang">City</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>4 sep 2020</div><p>4,766 views</p></div>
+      </div>
+      <div class="ddd">
+        
+          <img src="img-09.jpg" alt="Cinque Terre">
+      
+          <a href="img-09.jpg" data-lightbox="mygallery" data-title="Abstract">
+            <div class="dd">
+          <h3 class="hng">Abstract</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>3 sep 2020</div><p>2,336 views</p></div>
+      </div>
+      
+      <div class="ddd">
+       
+          <img src="img-10.jpg" alt="Forest">
+       
+          <a href="img-10.jpg" data-lightbox="mygallery" data-title="Leaves">
+            <div class="dd">
+          <h3 class="hng">Leaves</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>1 sep 2020</div><p>2,885 views</p></div>
+      </div>
+      
+      <div class="gallery">
+        
+          <img src="img-11.jpg" alt="Northern Lights" >
+        
+          <a href="img-11.jpg" data-lightbox="mygallery" data-title="Flowers">
+            <div class="cont">
+          <h3 class="hang">Flowers</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>28 aug 2020</div><p>643 views</p></div>
+      </div>
+      
+      <div class="ddd">
+       
+          <img src="img-12.jpg" alt="Mountains" >
+       
+          <a href="img-12.jpg" data-lightbox="mygallery" data-title="Abstract">
+            <div class="dd">
+          <h3 class="hng">Abstract</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>27 aug 2020</div><p>1,556 views</p></div>
+      </div>
+      <div class="gallery">
+        
+          <img src="img-13.jpg" alt="Cinque Terre">
+        
+          <a href="img-13.jpg" data-lightbox="mygallery" data-title="Vibes">
+            <div class="cont">
+          <h3 class="hang">Vibes</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>21 aug 2020</div><p>2,027 views</p></div>
+      </div>
+      
+      <div class="ddd">
+        
+          <img src="img-14.jpg" alt="Forest">
+      
+          <a href="img-14.jpg" data-lightbox="mygallery" data-title="Sea">
+            <div class="dd">
+          <h3 class="hng">Sea</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>18 aug 2020</div><p>502 views</p></div>
+      </div>
+      
+      <div class="gallery">
+        
+          <img src="img-15.jpg" alt="Northern Lights">
+      
+          <a href="img-15.jpg" data-lightbox="mygallery" data-title="Turtle">
+            <div class="cont">
+          <h3 class="hang">Turtle</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>15 aug 2020</div><p>1,666 views</p></div>
+      </div>
+      
+      <div class="ddd">
+       
+          <img src="img-16.jpg" alt="Mountains" >
+      
+          <a href="img-16.jpg" data-lightbox="mygallery" data-title="Faith">
+            <div class="dd">
+          <h3 class="hng">Faith</h3>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ipsam.</p>
+        </div></a>
+        <div class="desc"><div>21 sep 2020</div><p>11,666 views</p></div>
+      </div>
+       </div>
+       <div class="related">
+         <ul class="related-images">
+           <li class="a"><a href="nature/nature.html">Nature</a></li>
+           <li class="b"><a href="wildlife/wildlife.html">Wild Life</a></li>
+           <li class="c"><a href="flowes/flowers.html">Flower</a></li>
+           <li class="d"><a href="wildlife/mountain.html">Mountain</a></li>
+           <li class="e"><a href="wildlife/snowfall.html">Snowfall</a></li>
+         </ul>
+       </div>
+    <footer>
+        <div class="foot">
+            <h3>Web Flow</h3>
+            <hr class="hr">
+            <p>Let's connect with us, make a moment a lasting conveyable memory. Let us help build your tribe
+            </p>
+            <div class="social2">
+                <ul class="sitems1" >
+                    <li ><a href="https://www.facebook.com/profile.php?id=100013997972695" target="blank"><i class="fab fa-facebook"></i></a></li>
+                    <li ><a href="https://www.instagram.com/entrepreneur_surajp/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                    <li ><a href="https://www.linkedin.com/in/suraj-pandey-225459197/" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="quick_link">
+                <ul class="quick_item" >
+                    <li ><a href="#" >Home</a></li>
+                    <li ><a href="#about">About us</a></li>
+                    <li ><a href="#c">Contact us</a></li>
+                    <li ><a href="https://drive.google.com/file/d/12AraVwcr6EvE50aZKmBZbuelNgvKSFfd/view?usp=sharing">Services</a></li>
+                </ul>
+            </div>
+            <div class="outer_section" >
+              copyright &copy; web coding by Suraj | All rights are reserved
+            </div>   
+    </footer>
+    <script type="text/javascript">
+      const splash = document.querySelector('.splash');
+      document.addEventListener('DOMContentLoaded',(e)=>{
+        setTimeout(()=>{
+          splash.classList.add('display-none');
+        },2000);
+      })
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+</body>
+</html>
+

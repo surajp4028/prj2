@@ -1,0 +1,10 @@
+<?php
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+session_start();
+$a=$_POST['uname'];
+    $c=$_POST['pass'];
+$_SESSION['username']=$a;
+$_SESSION['password']=$b;
+header("location:login.html");
+}
+?>
